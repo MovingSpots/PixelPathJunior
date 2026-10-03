@@ -2,7 +2,7 @@
 
 **Status: Unfinished template — do not submit as a completed reflection.**
 
-The assignment requires answers to three questions from a page that has not been supplied here. Replace the temporary headings below with the instructor's exact questions before submission. Write your own answers about work you actually performed; do not claim unverified learning or testing.
+The assignment requires answers to three questions. Write  answers about work I actually performed; do not claim unverified learning or testing.
 
 ## Question 1
 
