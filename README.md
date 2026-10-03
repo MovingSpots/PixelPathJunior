@@ -60,17 +60,9 @@ Planned implementation folders, to be added when development begins:
 - `frontend/` — Angular application and frontend tests.
 - `docs/` — planning, design references, review notes, and verification evidence.
 
-## Development and running the app
-
-This starter contains planning documents only. There is no runnable application or database yet. Follow [GITHUB_SETUP.md](GITHUB_SETUP.md) to set up the repository and local tools. Add exact backend, database-import, and frontend run instructions here once those components exist.
-
-Use fictional demonstration profiles while developing. Keep local credentials and environment files out of Git; include configuration examples with placeholder values instead.
-
 ## Project planning
 
 Create a GitHub Project named **PixelPath Junior Capstone** and use the board columns **Todo**, **In Progress**, **Review**, and **Done**.
-
-The starting backlog and completion checklists are in [docs/INITIAL_TASKS.md](docs/INITIAL_TASKS.md). The repository setup guide explains how to turn them into issues and add them to the Project. Add the actual Project URL here after creating it.
 
 Course checkpoints:
 
