@@ -1,26 +1,6 @@
 # GitHub setup guide
 
-This package contains prepared files, not a repository or live Project already created on GitHub.
-
-## 1 Create the repository
-
-1. Sign in to GitHub with your account, normally MovingSpots.
-2. Open https://github.com/new.
-3. Confirm Owner, then enter **PixelPathJunior** as the repository name.
-4. Description: **Grade 1 computer skills practice web app built with PHP, MySQL, and Angular for my triOS Web Capstone.**
-5. Choose Public for a portfolio if you wish to share the source, or Private if your instructor prefers restricted access.
-6. Enable **Add a README file**. Do not select a generated gitignore because this package includes one. Leave the license unselected until you choose how to license the work.
-7. Click **Create repository**.
-
-## 2 Upload the prepared files
-
-1. Extract the ZIP locally. Open the extracted PixelPathJunior folder.
-2. In your GitHub repository, use **Add file → Upload files**.
-3. Upload the contents of that folder so README.md is at the repository root, rather than inside an extra PixelPathJunior directory. Preserve docs and .github folder nesting. If your system hides .gitignore or .github, include them using your local Git clone as described below.
-4. Uploading README.md replaces the starter README. Use a commit message such as **Add capstone proposal and initial task plan**.
-5. Commit the changes and confirm the README appears on the repository home page.
-
-## 3 Create the GitHub Project
+## 1 Create the GitHub Project
 
 1. Open your GitHub profile, select **Projects**, then **New project**.
 2. Under Start from scratch, select **Board**.
@@ -36,11 +16,11 @@ This package contains prepared files, not a repository or live Project already c
 9. Use Stage options Planning, Backend, Frontend, Review, Testing, Submission, and Priority options High, Medium, Low. Save view changes.
 10. Set Project visibility so your instructor can access it. If private, invite their actual GitHub account with the access needed to review it.
 
-## 4 Link the Project to the repository
+## 2 Link the Project to the repository
 
 Open the repository **Projects** tab, choose **Link a project**, search for **PixelPath Junior Capstone**, and select it. Link access is separate from permission to see a private Project. Add the actual Project URL to README.md after creating it.
 
-## 5 Create and add initial tasks
+## 3 Create and add initial tasks
 
 1. Open docs/INITIAL_TASKS.md. It contains 23 titles, target course days, priorities, and completion checklists.
 2. In your repository, select **Issues → New issue**. Use the provided Capstone task template, or create a blank issue.
@@ -53,7 +33,7 @@ A Markdown task list does not automatically populate GitHub Projects. Creating i
 
 Optional workflows: configure Auto-add to project for this repository with filter `is:issue`; set newly added items to Todo; set closed issues to Done. Check that the workflow is enabled. Auto-add covers matching new items; manually add existing issues if needed.
 
-## 6 Clone and work locally
+## 4 Clone and work locally
 
 After the online repository exists and starter files are committed:
 
@@ -76,7 +56,7 @@ git push origin main
 
 For later changes, use the same add, commit, and push flow with a message describing the actual change. If there are no changes, do not create an empty commit. Pull with `git pull --ff-only` before starting work on a clone that another computer has updated.
 
-## 7 Configure your development tools
+## 5 Configure your development tools
 
 - Use VS Code and Git for project work.
 - Start Apache and MySQL in XAMPP and verify the local server works.
@@ -85,7 +65,7 @@ For later changes, use the same add, commit, and push flow with a message descri
 - Keep backend and frontend source in this repository once created. Commit config examples rather than real credentials.
 - Replace the README's planning-only run section with tested instructions when the app becomes runnable.
 
-## 8 Verify the setup
+## 6 Verify the setup
 
 - README shows the app name, introduction, proposed features, technology, and course checkpoints.
 - AIReflection.md exists and is visibly marked unfinished.
